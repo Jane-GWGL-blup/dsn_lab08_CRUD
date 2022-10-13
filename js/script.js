@@ -51,7 +51,7 @@ function onEdit(td){
     document.getElementById("productCode").value = selectedRow.cells[0].innerHTML;
     document.getElementById("productName").value = selectedRow.cells[1].innerHTML;
     document.getElementById("productBrand").value = selectedRow.cells[2].innerHTML;
-    document.getElementById("perPriceroductCode").value = selectedRow.cells[3].innerHTML;
+    document.getElementById("perPrice").value = selectedRow.cells[3].innerHTML;
     document.getElementById("stock").value = selectedRow.cells[4].innerHTML;
 }
 
