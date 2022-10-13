@@ -1,0 +1,30 @@
+body{
+    background-image: url("../img/bgproducto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2%;
+}
+
+h1, h3{
+    color: white;
+}
+.principal_table{
+    width: 100%;
+    background-color: rgba(201, 201, 202, 0.936);
+}
+
+.table-head{
+    font-weight: bold;
+    background: rgb(24,210,188);
+background: linear-gradient(90deg, rgba(24,210,188,1) 0%, rgba(15, 174, 179, 0.623) 50%, rgba(24,210,188,1) 100%);
+    color: white;
+}
+
+.principal_td{
+    width: 40%;
+}
+
+td.border_td{
+    border:2px solid rgb(123, 123, 123);
+    padding: 2%;
+}
